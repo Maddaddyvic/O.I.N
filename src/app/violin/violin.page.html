@@ -1,0 +1,45 @@
+<body style = "background-color: #8E6EE9;">
+    <ion-header>
+    
+      <ion-toolbar>
+          <ion-buttons slot="start">
+          
+               <ion-tab-button tab="tab1" routerLink="../">
+                  <ion-icon name="arrow-back"></ion-icon>
+                  <ion-label></ion-label>
+                </ion-tab-button>
+           
+          </ion-buttons>
+          <ion-title>Bass</ion-title>
+         </ion-toolbar>
+    
+      <ion-card>
+    <ion-card-content id = "profile" style = "background-color: white">
+        <img class="bassimg" src="../assets/bass.svg" alt="Guitar">
+    
+        <div class="row">
+         <div class="column">
+           <h2>Description:</h2>
+           <p>Bass<br>
+              Blue bass, gold strings, 4 strings, <br>
+            $5.00/wk
+            </p>
+         </div>
+         <div class="column" >
+            
+            <h3> Contact </h3>
+            <p>
+                Fofang Atanga
+                realemail@website.suffix<br>
+                (123) 456-7890
+              </p>
+         </div>
+        </div>
+    <ion-icon name="Sample-back"></ion-icon>
+    </ion-card-content>
+    </ion-card>
+    <ion-button (click)="btnclicked()" expand="block" style="padding-bottom: 5px" ion-button color="light">Rent</ion-button>
+    
+    </ion-header>
+    
+    </body>

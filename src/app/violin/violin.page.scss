@@ -1,0 +1,36 @@
+#profile{
+    height: 300px;
+}
+
+.bassimg{
+    height: 83px;
+    width:240px
+}
+
+.profpic{
+    width: 75px
+}
+
+ion-icon {
+    color: #8E6EE9;
+}
+
+
+* {
+    box-sizing: border-box;
+   }
+   
+   /* Create two equal columns that floats next to each other */
+   .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; 
+   }
+   
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }

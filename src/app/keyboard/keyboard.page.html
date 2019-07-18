@@ -1,0 +1,45 @@
+<body style = "background-color: #8E6EE9;">
+    <ion-header>
+    
+      <ion-toolbar>
+          <ion-buttons slot="start">
+          
+               <ion-tab-button tab="tab1" routerLink="../">
+                  <ion-icon name="arrow-back"></ion-icon>
+                  <ion-label></ion-label>
+                </ion-tab-button>
+           
+          </ion-buttons>
+          <ion-title>Keyboards</ion-title>
+         </ion-toolbar>
+    
+      <ion-card>
+    <ion-card-content id = "profile" style = "background-color: white">
+        <img class="guitarimg" src="../assets/guitar.png" alt="Guitar">
+    
+        <div class="row">
+         <div class="column">
+           <h2>Description:</h2>
+           <p>Keyboard<br>
+              Mechanical Piano Keyboard, foot pedals, metronome, volume adjuster.<br>
+              $5.00/wk
+            </p>
+         </div>
+         <div class="column" >
+            <img class="profpic" src="../assets/profpic.png" alt="Guitar">
+            <h3> Contact </h3>
+            <p>
+                Caleb Bazini
+                realemail@website.suffix<br>
+                (123) 456-7890
+              </p>
+         </div>
+        </div>
+    <ion-icon name="Sample-back"></ion-icon>
+    </ion-card-content>
+    </ion-card>
+    <ion-button (click)="btnclicked()" expand="block" style="padding-bottom: 5px" ion-button color="light">Rent</ion-button>
+    
+    </ion-header>
+    
+    </body>

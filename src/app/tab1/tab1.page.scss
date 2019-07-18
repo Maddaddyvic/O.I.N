@@ -1,0 +1,61 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+#but {
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 0px;
+  font-size: 30px;
+}
+#Ion-Logo {
+  height: 40px;
+  width: 50px;
+  display: block; 
+  margin: auto;
+}
+#butt {
+  display: block;
+  margin: auto;
+  width: 60%;
+   border-radius: 0px;
+  font-size: 30px;
+}
+
+a {
+  color: black;
+}
+#guitaricon{
+  height: 200px;
+  width: 200px;
+}
+#bassicon{
+  float: right;
+  height: 200px;
+  width: 200px;
+ 
+}
+#trumpeticon{
+  height: 200px;
+  width: 200px;
+  float: right;
+}
+#drumsicon{
+  float: unset;
+  color: black;
+  height: 200px;
+  width: 200px;
+}
+table, th, td {
+  border-collapse: collapse;
+ }
+ th, td {
+  padding: 5px;
+  text-align: left;
+ }
+
+ .bg {
+  --background: url('https://cdn2.cloud1.cemah.net/wp-content/uploads/sites/53/2017/09/bamboo-veneer-carbonized-vertical.jpg');
+  background-repeat: repeat-y repeat-x;
+ }
