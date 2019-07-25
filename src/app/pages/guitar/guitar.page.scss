@@ -1,19 +1,18 @@
 #profile{
-    height: 300px;
+    background-color: white;
 }
 
 #guitarimg{
     height: 300px;
-    width: 200px;
+    width: 300px;
         -webkit-transform:rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
-        margin-right: 50px;
         padding-right: 50px;
-      }
-
+        padding-left: 50px;
+}
 
 .profpic{
     width: 75px
@@ -22,28 +21,10 @@
 ion-icon {
     color: black;
 }
-
-
-* {
-    box-sizing: border-box;
+  #issabody{
+       background-color: white;
    }
-   
-   /* Create two equal columns that floats next to each other */
-   .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 200px; 
+   #navbar{
+    background-color: white;
    }
-   
-   /* Clear floats after the columns */
-   .row:after {
-    content: "";
-    display: table;
-    clear: both;
-   }
-
- .bg {
-    --background: url('https://cdn2.cloud1.cemah.net/wp-content/uploads/sites/53/2017/09/bamboo-veneer-carbonized-vertical.jpg');
-    background-repeat: repeat-y repeat-x;
-   }
+  

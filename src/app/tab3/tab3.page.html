@@ -1,16 +1,55 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      <ion-img id="Ion-Logo" src="/assets/logo.png"></ion-img>
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-<ion-card-content>
-<Header id="something">
+    <ion-toolbar>
+      <ion-title>
+        <ion-img id="Ion-Logo" src="/assets/newlogo.png"></ion-img>
+      </ion-title>
+    </ion-toolbar> 
+  </ion-header>
 
-</Header>
 
-</ion-card-content>
+  <ion-content>
+    <ion-card>
+        <ion-card-content id = "profile" style = "background-color: gray">
+<ion-img id=cameraicon src="/assets/cameraicon.png"> </ion-img> <ion-text color="light">Add Photo</ion-text>
+        </ion-card-content>
+        </ion-card>
+    
+    <ion-card>
+      <ion-card-content>
+        <b><u>Set Description</u></b><br>
+       <ion-textarea></ion-textarea>
 
-<ion-content></ion-content>
+        
+      </ion-card-content>
+    </ion-card>
+    <div>
+    <div id="issacard">
+    <ion-card >
+     
+         <b>$$/</b><br>
+         <b><u>Month</u><ion-textarea></ion-textarea><br><u>Week</u></b><ion-textarea></ion-textarea><br>
+      
+    </ion-card>
+  </div>
+
+  <div id="test">
+    <ion-card >
+          <b>CONTACT:</b><br>Email:<ion-textarea></ion-textarea><br>
+          Phone:<ion-textarea></ion-textarea><br>
+          <ion-textarea placeholder="City, State" id= "issatextarea"></ion-textarea>
+
+      
+          
+          </ion-card>
+    </div>
+  </div>
+  <ion-fab right bottom>
+    <button ion-fab (click)="presentActionSheet()">
+       <ion-icon name="camera"></ion-icon>
+      </button>
+  </ion-fab>
+    </ion-content>
+
+
+        
 

@@ -8,7 +8,10 @@ const routes: Routes = [
   { path: 'trumpet', loadChildren: './trumpet/trumpet.module#TrumpetPageModule' },
   { path: 'trombone', loadChildren: './trombone/trombone.module#TrombonePageModule' },
   { path: 'keyboard', loadChildren: './keyboard/keyboard.module#KeyboardPageModule' },
-  { path: 'saxaphone', loadChildren: './saxaphone/saxaphone.module#SaxaphonePageModule' }
+  { path: 'saxaphone', loadChildren: './saxaphone/saxaphone.module#SaxaphonePageModule' },
+  { path: 'transactions', loadChildren: './transactions/transactions.module#TransactionsPageModule' },
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+  { path: 'listing', loadChildren: './listing/listing.module#ListingPageModule' },
 ];
 @NgModule({
   imports: [

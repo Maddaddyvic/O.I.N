@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar>
+
+        <ion-buttons slot="start">
+            <ion-tab-button tab="tab1" routerLink="../">
+              <ion-icon name="arrow-back"></ion-icon>
+              <ion-label></ion-label>
+            </ion-tab-button>
+
+            
+          </ion-buttons>
+        <ion-title>Transactions</ion-title>
+       </ion-toolbar>
+    
+    </ion-header>
+<ion-content>
+
+
+<ion-card>
+      <ion-card-content>
+        Insurance deposit:............................30$<br>
+        (will be refunded after returned)<br><br>
+        Rent: 15$/week................................45$<br>
+        (Select number of weeks 3)<br><br>
+        Total............................................$75
+
+
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-content>
+          <ion-textarea placeholder="Credit Card Number" id= "skkrra"></ion-textarea>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+    <ion-card-content>
+        <ion-textarea placeholder="Expiration Date" id= "expdate"></ion-textarea>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+  <ion-card-content>
+      <ion-textarea placeholder="Code" id= "creditcode"></ion-textarea>
+  </ion-card-content>
+</ion-card>
+<ion-button (click)="btnclicked()" expand="block" style="padding-bottom: 2px" ion-button color="dark">Confirm</ion-button>
+  </ion-content>
+
