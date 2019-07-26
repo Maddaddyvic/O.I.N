@@ -1,53 +1,32 @@
 <ion-header>
 
     <ion-toolbar>
+      
         <ion-buttons slot="start">
-        
-             <ion-tab-button tab="tab1" routerLink="../">
-                <ion-icon name="arrow-back"></ion-icon>
-                <ion-label></ion-label>
-              </ion-tab-button>
-         
-        </ion-buttons>
-        <ion-title>Violin</ion-title>
+            <ion-back-button></ion-back-button>
+          </ion-buttons>
+
+        <ion-title>Winds</ion-title>
        </ion-toolbar>
   
     
   
   </ion-header>
-  <body id="issabody">
+
+  <ion-content>
   
-  <ion-tabs>
-  
-      <ion-tab-bar slot="bottom" id="navbar">
-        <ion-tab-button tab="tab1" routerLink="/tabs/tab1">
-          <ion-icon name="search"></ion-icon>
-          <ion-label></ion-label>
-        </ion-tab-button>
-    
-        <ion-tab-button tab="tab2">
-          <ion-icon name="menu"></ion-icon>
-          <ion-label></ion-label>
-        </ion-tab-button>
-    
-        <ion-tab-button tab="tab3" >
-          <ion-icon name="add"></ion-icon>
-          <ion-label></ion-label>
-        </ion-tab-button>
-      </ion-tab-bar>
-    
-    </ion-tabs>
+      
   
     <ion-card>
         <ion-card-content id = "profile">
-            <img id="guitarimg" src="../assets/calebsguitarimg.jpg" alt="Guitar">
+            <img id="guitarimg" src="../assets/clarinet.png" alt="Guitar" routerLink="/transactions">
         
             <div class="row">
               
              <div class="column">
                <h2><u><b>DESCRIPTION:</b></u></h2>
-               <p>Violin<br>
-                  Brown etched violin, 4 strings, golden horse hair.<br>
+               <p>Buffet Crampon Premium Student Bb Clarinet<br>
+                  Black and silver, 3 reeds, and wetting cup.<br>
                 </p>
              </div>
              <div class="column" >
@@ -63,7 +42,56 @@
         <ion-icon name="Sample-back"></ion-icon>
         </ion-card-content>
         </ion-card>
-        <ion-button (click)="btnclicked()" expand="block" style="padding-bottom: 2px" ion-button color="light">Rent $5/week</ion-button>
-  
-  
-  </body>
+
+        <ion-card>
+            <ion-card-content id = "profile">
+                <img id="guitarimg" src="../assets/flute$202.png" alt="Guitar" routerLink="/transactions">
+            
+                <div class="row">
+                  
+                 <div class="column">
+                   <h2><u><b>DESCRIPTION:</b></u></h2>
+                   <p>Etude Model EFL-100 Student Flute<br>
+                      Silver, shining cloth, and cleaning stick.<br>
+                    </p>
+                 </div>
+                 <div class="column" >
+                    <h3><u><b>CONTACT</b></u></h3>
+                    <p>
+                        Victor Lopez
+                        <u>realemail@website.suffix</u><br>
+                        (123) 456-7890<br>
+                        City, State
+                      </p>
+                 </div>
+                </div>
+            <ion-icon name="Sample-back"></ion-icon>
+            </ion-card-content>
+            </ion-card>
+
+            <ion-footer id="navbar">
+                <ion-toolbar>
+               
+                <ion-tabs >
+                    
+                    <ion-tab-bar slot="bottom">
+                      <ion-tab-button tab="tab1" routerLink="/tabs/tab1">
+                        <ion-icon name="search"></ion-icon>
+                        <ion-label></ion-label>
+                      </ion-tab-button>
+                  
+                      <ion-tab-button tab="tab2" routerLink="/tabs/tab2">
+                        <ion-icon name="menu"></ion-icon>
+                        <ion-label></ion-label>
+                      </ion-tab-button>
+                  
+                      <ion-tab-button tab="tab3" routerLink="/tabs/tab3">
+                        <ion-icon name="add"></ion-icon>
+                        <ion-label></ion-label>
+                      </ion-tab-button>
+                    </ion-tab-bar>
+                  
+                  </ion-tabs>
+                  
+             </ion-toolbar>
+              </ion-footer>

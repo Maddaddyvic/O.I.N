@@ -1,9 +1,74 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>listing</ion-title>
+    
+    <ion-toolbar>
+        <ion-buttons slot="start">
+        
+            <ion-buttons slot="start">
+                <ion-back-button></ion-back-button>
+              </ion-buttons>
+
+            </ion-buttons>
+            <ion-title>Listings</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <p><b>Items that you are currently listing will appear here.<br> 
+     <br>The Rentals button will take you to the intruments you are currently renting out.</b></p>
+
+  
+  
+  <ion-button color="light" id="renting" routerLink="/tabs/tab2">Your Rentals</ion-button>
+
+    <ion-card>
+        <ion-card-content>
+            Rozanna's Violins Sunflower Delight Series Violin Outfit<br>
+          <ion-img id="calebsguitarimg" src="/assets/expensvio.png"></ion-img>
+          $10/day
+        </ion-card-content>
+      </ion-card>
+    
+      <ion-card>
+          <ion-card-content>
+              Etude ETR-100 Series Lacquer Student Bb Trumpet<br>
+            <ion-img id="calebguitarimg" src="/assets/specialtrump.jpeg"></ion-img>
+            $5/day
+          </ion-card-content>
+        </ion-card>
+    
+        <ion-card>
+            <ion-card-content>
+              Yamaha F310 Dreadnought Acoustic Guitar<br>
+              <ion-img id="calebguitarimg" src="/assets/keyboard.jpeg"></ion-img>
+              $25/day
+            </ion-card-content>
+          </ion-card>
 </ion-content>
+
+<ion-footer id="navbar">
+    <ion-toolbar>
+   
+    <ion-tabs >
+        
+        <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="tab1" routerLink="/tabs/tab1">
+            <ion-icon name="search"></ion-icon>
+            <ion-label></ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="tab2" routerLink="/tabs/tab2">
+            <ion-icon name="menu"></ion-icon>
+            <ion-label></ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="tab3" routerLink="/tabs/tab3">
+            <ion-icon name="add"></ion-icon>
+            <ion-label></ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      
+      </ion-tabs>
+      
+ </ion-toolbar>
+  </ion-footer>

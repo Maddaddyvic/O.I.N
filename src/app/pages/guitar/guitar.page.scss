@@ -1,7 +1,3 @@
-#profile{
-    background-color: white;
-}
-
 #guitarimg{
     height: 300px;
     width: 300px;
@@ -13,18 +9,23 @@
         padding-right: 50px;
         padding-left: 50px;
 }
-
-.profpic{
-    width: 75px
+#guitarimh{
+    height: 300px;
+    width: 300px;
+        -webkit-transform:rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        padding-right: 50px;
+        padding-left: 50px;
 }
+
 
 ion-icon {
     color: black;
 }
-  #issabody{
-       background-color: white;
-   }
-   #navbar{
-    background-color: white;
-   }
-  
+#guitarim{
+    height: 200px;
+}
+
