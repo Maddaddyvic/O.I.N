@@ -1,21 +1,23 @@
 <ion-header>
     <ion-toolbar>
 
-        <ion-buttons slot="start">
-            <ion-back-button></ion-back-button>
-          </ion-buttons>
-
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+      </ion-buttons>
+      
         <ion-title>Transactions</ion-title>
        </ion-toolbar>
     
     </ion-header>
 <ion-content>
   <ion-card>
-      Select number of weeks 
+      Select number of weeks <textarea rows="1" cols="50">3
+          
+          </textarea>
   </ion-card>
 
 
-<ion-card>
+<ion-card routerLink="/usrnme">
       <ion-card-content>
         Insurance deposit:............................30$<br>
         (will be refunded after returned)<br><br>

@@ -1,36 +1,31 @@
-#profile{
+#guitarimg{
     height: 300px;
+    width: 300px;
+        -webkit-transform:rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        padding-right: 50px;
+        padding-left: 50px;
+}
+#guitarimh{
+    height: 300px;
+    width: 300px;
+        -webkit-transform:rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        padding-right: 50px;
+        padding-left: 50px;
 }
 
-.guitarimg{
-
-    width:240px
-}
-
-.profpic{
-    width: 75px
-}
 
 ion-icon {
-    color: #8E6EE9;
+    color: black;
+}
+#guitarim{
+    height: 200px;
 }
 
-
-* {
-    box-sizing: border-box;
-   }
-   
-   /* Create two equal columns that floats next to each other */
-   .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 200px; 
-   }
-   
-   /* Clear floats after the columns */
-   .row:after {
-    content: "";
-    display: table;
-    clear: both;
-   }

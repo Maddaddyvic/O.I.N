@@ -1,40 +1,80 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      <ion-img id="Ion-Logo" src="/assets/newlogo.png"></ion-img>
-    </ion-title>
-  </ion-toolbar> 
-</ion-header>
+<ion-header translucent>
+    <ion-toolbar>
+ 
+    
+      <ion-title>
+        <ion-img id="Ion-Logo" src="/assets/newlogo.png"></ion-img>
+      </ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
 
-<ion-content>
+<ion-content class="bg">
 
-  <p><b>The Instruments You Have rented In The Past Will Show Up Here.<br><br>
-  The Listings button will take you to a page showing what you are currently listing for people to rent out.</b></p>
+    <ion-toolbar>
+        <ion-buttons slot="secondary">
+          <ion-button routerLink="/tabs/tab2">Rentals</ion-button>
+        </ion-buttons>
+        
+        
+        <ion-buttons slot="primary">
+          <ion-button routerLink="/listing">Listings</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
 
-  <ion-button color="light" id="rented" routerLink="/listing">Your Listings</ion-button>
-  
+  <!--<p><b>The Instruments You Have rented In The Past Will Show Up Here.<br><br>
+  The Listings button will take you to a page showing what you are currently listing for people to rent out.</b></p>  -->
 
 <ion-card>
-    <ion-card-content>
-      Yamaha F310 Dreadnought Acoustic Guitar<br>
-      <ion-img id="calebsguitarimg" src="/assets/calebsguitarimg.jpg"></ion-img>
-      $5/day
+    <ion-card-content style="background-color: white">
+        <table style="width:100%">
+            <tr>
+                <th> <ion-img id = "leftpic" src="/assets/expensvio.png"></ion-img>
+                </th>
+                <th colspan="2"> <h1>Yamaha F310 <br> Acoustic Guitar<br></h1>
+                  <h2>$5/day</h2>
+                  <div class="rectangle">
+                    <h3 id ="receive">Received</h3>
+                  </div>
+
+                </th>
+              </tr>
+        </table>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
-      <ion-card-content>
-        Yamaha F310 Dreadnought Acoustic Guitar<br>
-        <ion-img id="calebsguitarimg" src="/assets/calebsguitarimg.jpg"></ion-img>
-        $5/day
+      <ion-card-content style="background-color: white">
+          <table style="width:100%">
+              <tr>
+                  <th> <ion-img id = "leftpic" src="/assets/expensvio.png"></ion-img>
+                  </th>
+                  <th colspan="2"> <h1>Yamaha F310 <br> Acoustic Guitar<br></h1>
+                    <h2>$5/day</h2>
+                    <div class="whiterectangle">
+                      <h3 id ="whitereceive">Received</h3>
+                    </div>
+  
+                  </th>
+                </tr>
+          </table>
       </ion-card-content>
     </ion-card>
 
     <ion-card>
-        <ion-card-content>
-          Yamaha F310 Dreadnought Acoustic Guitar<br>
-          <ion-img id="calebsguitarimg" src="/assets/calebsguitarimg.jpg"></ion-img>
-          $5/day
+        <ion-card-content style="background-color: white">
+            <table style="width:100%">
+                <tr>
+                    <th> <ion-img id = "leftpic" src="/assets/expensvio.png"></ion-img>
+                    </th>
+                    <th colspan="2"> <h1>Yamaha F310 <br> Acoustic Guitar<br></h1>
+                      <h2>$5/day</h2>
+                      <div class="rectangle">
+                        <h3 id ="receive">Received</h3>
+                      </div>
+                    </th>
+                  </tr>
+            </table>
         </ion-card-content>
       </ion-card>
 

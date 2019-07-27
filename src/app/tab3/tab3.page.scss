@@ -12,15 +12,16 @@
   padding-right: 150px;
 }
 #issacard{
-  float: left;
+  float: l;
   width: 150px;
   height: ds;
   display: inline-block;
 }
 #test{
-  float: left;
+  float: right;
   width: 200px;
   height: ds;
+  
   display: inline-block;
 }
 #issatextarea{
@@ -28,4 +29,26 @@
 }
 #profile{
   padding-bottom: 50px;
+}
+#publish{
+  padding-left: 600px;
+}
+#time{
+  width: 100px;
+}
+#ctact{
+  width: 50px;
+}
+.detime{
+  width: 100px;
+  text-align: top;
+}
+.info{
+  text-align: right;
+  padding-right: 100px;
+}
+.ino{
+  text-align: left;
+  
+
 }

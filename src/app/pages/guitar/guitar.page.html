@@ -1,95 +1,78 @@
 <ion-header>
-
     <ion-toolbar>
+
         <ion-buttons slot="start">
-            <ion-back-button></ion-back-button>
+            <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
           </ion-buttons>
-         
-        
-        <ion-title>Strings</ion-title>
+
+        <ion-title>Guitars</ion-title>
        </ion-toolbar>
-  
     
-  
-  </ion-header>
+</ion-header>
 
-  <ion-content>
+  <ion-content >
       
+      <ion-card routerLink="/transactions">
+        <div class="container">
+        <img src="../assets/guitarpicture1.jpeg" id="guitarimg">
+        <div class="bottom-left"> $5/week </div>
+        </div>
+    
+        <ion-card-header>
+          <ion-card-title>Fender Guitar</ion-card-title>
+        </ion-card-header>
 
-        <ion-card routerLink="/transactions">
-          <ion-card-content id = "profile">
-              <ion-img id="guitarimh" src="../assets/wackyguitar.png"routerLink="/transactions"></ion-img>
-          
-              <div class="row">
-                
-               <div class="column">
-                 <h2><u><b>DESCRIPTION:</b></u></h2>
-                 <p>Rogue RA-090 Dreadnought Acoustic Guitar<br>
-                    <br>
-                  </p>
-               </div>
-               <div class="column" >
-                  <h3><u><b>CONTACT</b></u></h3>
-                  <p>
-                      William Jones
-                      <u>realemail@website.suffix</u><br>
-                      (123) 456-7890
-                      City, State
-                    </p>
-               </div>
-              </div>
-          <ion-icon name="Sample-back"></ion-icon>
-          </ion-card-content>
-          </ion-card>
-          <ion-card routerLink="/transactions">
-            <ion-card-content id = "profile">
-                <ion-img id="guitarim" src="../assets/pinkvio.png"routerLink="/transactions"></ion-img>
-            
-                <div class="row">
-                  
-                 <div class="column">
-                   <h2><u><b>DESCRIPTION:</b></u></h2>
-                   <p>Cremona SV-75RS Premier Novice Series Sparkling Rose Violin Outfit<br>
-                    Pink violin, 4 strings, right handed.<br>
-                    </p>
-                 </div>
-                 <div class="column" >
-                    <h3><u><b>CONTACT</b></u></h3>
-                    <p>
-                        Victor Lopez
-                        <u>realemail@website.suffix</u><br>
-                        (123) 456-7890
-                        City, State
-                      </p>
-                 </div>
-                </div>
+        <ion-card-content>
+            <table style="width:100%">
+                <tr>
+                    <th> <p>Victor Lopez</p>
+                        <h3>VictorL@gmail.com <br>
+                            (323) 434-8957 <br>
+                            Los Angeles, CA
+                        </h3>
+                    </th>
+                    <th colspan="2"> <p>Description</p> 
+                      <h3>--------------<br>
+                      ---------------<br>
+                    ----------------<br>
+                  </h3>
+                    </th>
+                  </tr>
+            </table>
             <ion-icon name="Sample-back"></ion-icon>
-            </ion-card-content>
-            </ion-card>
-         </ion-content>
-            <ion-footer id="navbar">
-                <ion-toolbar>
-               
-                <ion-tabs >
-                    
-                    <ion-tab-bar slot="bottom">
-                      <ion-tab-button tab="tab1" routerLink="/tabs/tab1">
-                        <ion-icon name="search"></ion-icon>
-                        <ion-label></ion-label>
-                      </ion-tab-button>
-                  
-                      <ion-tab-button tab="tab2" routerLink="/tabs/tab2">
-                        <ion-icon name="menu"></ion-icon>
-                        <ion-label></ion-label>
-                      </ion-tab-button>
-                  
-                      <ion-tab-button tab="tab3" routerLink="/tabs/tab3">
-                        <ion-icon name="add"></ion-icon>
-                        <ion-label></ion-label>
-                      </ion-tab-button>
-                    </ion-tab-bar>
-                  
-                  </ion-tabs>
-                  
-             </ion-toolbar>
-              </ion-footer>
+        </ion-card-content>
+
+      </ion-card>
+
+
+      <ion-card routerLink="/transactions">
+        <div class="container">
+        <img src="../assets/guitarpicture2.jpg" >
+        <div class="bottom-left"> $7/week </div>
+      </div>
+        <ion-card-header>
+          <ion-card-title>Acoustic Guitar</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <table style="width:100%">
+            <tr>
+                <th> <p>William Jones</p>
+                    <h3>realemail@website.suffix <br>
+                      (123) 456-7890 <br>
+                      City, State
+                    </h3>
+                </th>
+                <th colspan="2"> <p>Description</p> 
+                  <h3>--------------<br>
+                  ---------------<br>
+                ----------------<br>
+              </h3>
+                </th>
+              </tr>
+        </table>
+      </ion-card-content>
+      </ion-card>
+  
+    </ion-content>
+
+    

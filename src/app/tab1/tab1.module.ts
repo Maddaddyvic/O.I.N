@@ -10,7 +10,14 @@ import { Tab1Page } from './tab1.page';
     IonicModule,
     CommonModule,
     FormsModule,
-    RouterModule.forChild([{ path: '', component: Tab1Page }])
+    RouterModule.forChild([
+      { path: '', component: Tab1Page },
+      { path: 'guitar', loadChildren: '../pages/guitar/guitar.module#GuitarPageModule' },
+      { path: 'violin', loadChildren: '../violin/violin.module#ViolinPageModule' },
+      { path: 'trumpet', loadChildren: './trumpet/trumpet.module#TrumpetPageModule' },
+      { path: 'trombone', loadChildren: './trombone/trombone.module#TrombonePageModule' },
+    
+    ])
   ],
   declarations: [Tab1Page]
 })

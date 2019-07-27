@@ -17,14 +17,58 @@ width: 150px;
   width: 150px;
   margin-left: 100px;
 }
-#calebsguitarimg{
-  height: 150px;
-  width: 250px;
-  -webkit-transform:rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  padding-right: px;
-  padding-left: px;
+
+h2 {
+  position:absolute;
+  bottom:5px;
+  right:5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#leftpic {
+  width: 150px;
+}
+
+#receive {
+  color:white;
+  position:absolute;
+  top:15px;
+  right:20px;
+}
+
+
+.rectangle {
+  position:absolute;
+  top:0px;
+  right:0px;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+
+}
+
+.bg {
+  --background: url('https://cdn2.cloud1.cemah.net/wp-content/uploads/sites/53/2017/09/bamboo-veneer-carbonized-vertical.jpg');
+  background-repeat: repeat-y repeat-x;
+ }
+
+.whiterectangle {
+  position:absolute;
+  top:0px;
+  right:0px;
+  height: 50px;
+  width: 100px;
+  border-radius: 0px 3px 0px 0px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+#whitereceive {
+  color:black;
+  position:absolute;
+  top:15px;
+  right:20px;
 }

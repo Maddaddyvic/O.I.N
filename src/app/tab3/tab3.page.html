@@ -12,41 +12,41 @@
         <ion-card-content id = "profile" style = "background-color: gray">
 <ion-img id=cameraicon src="/assets/cameraicon.png"> </ion-img> <ion-text color="light">Add Photo</ion-text>
         </ion-card-content>
-        </ion-card>
+        
     
-    <ion-card>
-      <ion-card-content>
-        <b><u>Set Description</u></b><br>
-       <ion-textarea></ion-textarea>
+    
+     
+       
 
         
-      </ion-card-content>
-    </ion-card>
-    <div>
-    <div id="issacard">
-    <ion-card >
-     
-         <b>$$/</b><br>
-         <b><u>Month</u><ion-textarea></ion-textarea><br><u>Week</u></b><ion-textarea></ion-textarea><br><b><u>Day</u></b><ion-textarea></ion-textarea>
       
-    </ion-card>
+   
+    <div class="ino">
+    
+     
+         <b><u>Instrument Name</u></b><ion-textarea placeholder="" id= "ctact"></ion-textarea><br>
+         <b><u>Name</u><ion-textarea id="tme"></ion-textarea><br><u>Phone</u></b><ion-textarea id="tie"></ion-textarea><br><b><u>Email</u></b><ion-textarea id="tme"></ion-textarea><br><ion-textarea placeholder="City,State"></ion-textarea>
+      
+    
   </div>
 
-  <div id="test">
-    <ion-card >
-          <b>CONTACT:</b><br>Email:<ion-textarea></ion-textarea><br>
-          Phone:<ion-textarea></ion-textarea><br>
-          <ion-textarea placeholder="City, State" id= "issatextarea"></ion-textarea><br>
-          </ion-card>
+  
+    
+          
 
-          <ion-card>Publish</ion-card>
-    </div>
-  </div>
+         
+            <ion-button color="dark" id="publish">
+              Publish
+            </ion-button>
+      
+    
+  
   <ion-fab right bottom>
     <button ion-fab (click)="presentActionSheet()">
        <ion-icon name="camera"></ion-icon>
       </button>
   </ion-fab>
+</ion-card>
     </ion-content>
 
 
