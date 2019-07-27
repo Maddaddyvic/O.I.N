@@ -34,6 +34,7 @@ ion-icon {
     text-align: center;
     color: white;
     font-size:20px;
+    background: white;
   }
   
   .bottom-left {
@@ -44,4 +45,13 @@ ion-icon {
     background: rgba(65, 65, 65, 0.7);
     padding: 5px;
   
+  }
+  ion-content{
+    --background: #0094FF;
+  }
+  #amazing{
+      background: white;
+  }
+  .containe{
+      background: white;
   }

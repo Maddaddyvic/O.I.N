@@ -5,36 +5,41 @@
             <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
           </ion-buttons>
 
-        <ion-title>Guitars</ion-title>
+        <ion-title>Fender Guitar</ion-title>
        </ion-toolbar>
     
 </ion-header>
 
   <ion-content >
+    <div>
+        
+    </div>
+
       
-      <ion-card routerLink="/transactions">
+      <ion-card routerLink="/transactions" class="conatiner">
+      
         <div class="container">
         <img src="../assets/guitarpicture1.jpeg" id="guitarimg">
         <div class="bottom-left"> $5/week </div>
         </div>
     
-        <ion-card-header>
+        <ion-card-header class="container">
           <ion-card-title>Fender Guitar</ion-card-title>
         </ion-card-header>
 
-        <ion-card-content>
+        <ion-card-content class="containe">
             <table style="width:100%">
                 <tr>
-                    <th> <p>Victor Lopez</p>
-                        <h3>VictorL@gmail.com <br>
-                            (323) 434-8957 <br>
-                            Los Angeles, CA
+                    <th> <ion-text color="dark">Victor Lopez</ion-text>
+                        <h3><ion-text color="dark">VictorL@gmail.com </ion-text><br>
+                            <ion-text color="dark">(323) 434-8957 </ion-text><br>
+                            <ion-text color="dark">Los Angeles, CA</ion-text>
                         </h3>
                     </th>
-                    <th colspan="2"> <p>Description</p> 
-                      <h3>--------------<br>
+                    <th colspan="2"> <ion-text color="dark">Description</ion-text> 
+                      <h3><ion-text color="dark">--------------<br>
                       ---------------<br>
-                    ----------------<br>
+                    ----------------<br></ion-text>
                   </h3>
                     </th>
                   </tr>

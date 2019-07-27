@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'listing', loadChildren: './listing/listing.module#ListingPageModule' },
   
-  { path: 'usrnme', loadChildren: './usrnme/usrnme.module#UsrnmePageModule' },
+  
 ];
 @NgModule({
   imports: [

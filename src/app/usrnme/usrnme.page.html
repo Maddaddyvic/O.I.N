@@ -1,14 +1,123 @@
 <ion-header>
   <ion-toolbar>
 
-      <ion-buttons slot="start">
-          <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
-        </ion-buttons>
-        
-    <ion-title>usrnme</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>
+      <ion-img id="Ion-Logo" src="/assets/SamplifyV2.png"></ion-img>
+    </ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
-<ion-content>
+<ion-content >
+<br>
+<ion-item-group>
+    <ion-item-divider>
+      <ion-label>Guitars</ion-label>
+    </ion-item-divider>
 
-</ion-content>
+  <table style="width:100%;">
+    <tr>
+      <td>
+        <ion-card>
+          <img src="../assets/guitarpicture1.jpeg" routerLink="/tabs/tab1/guitar">
+          <div class="card-title">São Paulo</div>
+          <div class="card-subtitle">41 Listings</div>
+          <div class="container"></div>
+          <div class="bottom-left"> $7/week </div>
+        </ion-card>
+      </td>
+      <td colspan="2">
+        <ion-card>
+          <img src="../assets/guitarpicture1.jpeg" />
+          <div class="card-title">São Paulo</div>
+          <div class="card-subtitle">41 Listings</div>
+          <div class="container"></div>
+          <div class="bottom-left"> $7/week </div>
+          
+        </ion-card>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <ion-card>
+          <img src="../assets/guitarpicture1.jpeg" />
+          <div class="card-title">São Paulo</div>
+          <div class="card-subtitle">41 Listings</div>
+          <div class="container"></div>
+          <div class="bottom-left"> $7/week </div>
+        </ion-card>
+      </td>
+      <td>
+        <ion-card>
+          <img src="../assets/guitarpicture1.jpeg" />
+          <div class="card-title">São Paulo</div>
+          <div class="card-subtitle">41 Listings</div>
+          <div class="container"></div>
+          <div class="bottom-left"> $7/week </div>
+        </ion-card>
+      </td>
+    </tr>
+  </table>
+  <!-- <ion-card routerLink="">
+    <div class="container">
+      <img src="../assets/guitarpicture1.jpeg">
+      <div class="bottom-left"> $7/week </div>
+    </div>
+    <ion-card-header>
+      <ion-card-title>Acoustic Guitar</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <table style="width:100%">
+        <tr>
+          <th>
+            <p>William Jones</p>
+            <h3>realemail@website.suffix <br>
+              (123) 456-7890 <br>
+              City, State
+            </h3>
+          </th>
+          <th colspan="2">
+            <p>Description</p>
+            <h3>--------------<br>
+              ---------------<br>
+              ----------------<br>
+            </h3>
+          </th>
+        </tr>
+      </table>
+    </ion-card-content>
+  </ion-card>
+  <ion-card routerLink="/transactions">
+    <div class="container">
+      <img src="../assets/guitarpicture2.jpg">
+      <div class="bottom-left"> $7/week </div>
+    </div>
+    <ion-card-header>
+      <ion-card-title>Acoustic Guitar</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <table style="width:100%">
+        <tr>
+          <th>
+            <p>William Jones</p>
+            <h3>realemail@website.suffix <br>
+              (123) 456-7890 <br>
+              City, State
+            </h3>
+          </th>
+          <th colspan="2">
+            <p>Description</p>
+            <h3>--------------<br>
+              ---------------<br>
+              ----------------<br>
+            </h3>
+          </th>
+        </tr>
+      </table>
+    </ion-card-content>
+  </ion-card> -->
+<!-- </ion-content> -->
