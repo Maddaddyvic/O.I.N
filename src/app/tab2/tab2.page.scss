@@ -1,5 +1,5 @@
 #Ion-Logo {
-  height: px;
+  height: 50px;
   width: 160px;
   display: block; 
   margin: auto;
@@ -50,10 +50,8 @@ h1 {
 
 }
 
-.bg {
-  --background: url('https://cdn2.cloud1.cemah.net/wp-content/uploads/sites/53/2017/09/bamboo-veneer-carbonized-vertical.jpg');
-  background-repeat: repeat-y repeat-x;
- }
+
+ 
 
 .whiterectangle {
   position:absolute;
@@ -73,5 +71,8 @@ h1 {
   right:20px;
 }
 ion-content{
-  --background: #0094FF;
+  --background: white;
+}
+#masheader{
+  --background: #0094FF
 }

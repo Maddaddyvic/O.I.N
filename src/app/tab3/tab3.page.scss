@@ -1,5 +1,5 @@
 #Ion-Logo {
-  
+ height: 50px; 
   width: 160px;
   display: block; 
   margin: auto;
@@ -51,5 +51,8 @@
   text-align: left;
 }
 ion-content{
+  --background: white;
+}
+#moreheader{
   --background: #0094FF;
 }
